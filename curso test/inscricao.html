@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>input{
+        text-align: center;
+    }
+    label{
+        text-align: center;
+    };</style>
+    <title>inscricao</title>
+</head>
+<body>
+    <header>
+        <h1>Curso Online</h1>
+        <p>Amplie seu conhecimento com nossos cursos de alta qualidade.</p>
+    </header>
+    <nav>
+        <a href="index.html">Cursos</a>
+        <a href="inscricao.html"> Inscrever-se</a>
+    </nav>
+    <form action="https://64e6a1f309e64530d1801dd3.mockapi.io/api/v1/Nome" method="post">
+        
+        
+                <div>
+                    <br>
+        
+                    <label for="idTexto">Nome completo</label>
+                    <input type="text" id="idTexto" name="idTexto">
+                </div>
+            <div>
+        
+                    <label for="idEmail">E-mail</label>
+                    <input type="email" id="idEmail" name="idEmail" >
+            </div>
+        <div>
+        
+                <label for="idSenha"> Senha</label>
+                <input type="password" id="idSenha" name="idSenha">
+        </div>
+        <div>
+            <label for="iddata"> Data de nascimento</label>
+            <input type="date" id="iddata" name="Data" >
+        </div>
+        <div>
+            <label for="Curso"> Curso</label>
+            <select id="idCurso">
+                <option value="">Selecione o curso</option>
+                <option value="ADS">Análise e desenvolvimento de Sistemas</option>
+                <option value="Jogos">Jogos Digitais</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit" id="envio" value="envio"> Enviar </button>
+        </div>
+    </form>
+</body>
+</html>
